@@ -2,63 +2,51 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=\, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="IE=7" />
-    <title>Durbean</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Durbean - Beta Testing</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <header>
       <a href="index.html">
-        <img id="durbean-logo" src="durbean-logo.jpeg" alt="durbean"
-      /></a>
+        <img id="durbean-logo" src="durbean-logo.jpeg" alt="Durbean Logo" />
+      </a>
     </header>
 
     <div class="background-gradient"></div>
-    <!-- <h5>We're working hard to improve our website</h5> -->
     <h3>We're <span>Launching Soon</span></h3>
-    <div id="timer" class="countdown-timer">
-      <div class="time-unit">
-        <div class="time-box">
-          <div class="time-value" id="days">00</div>
-          <div class="time-label">days</div>
-        </div>
-      </div>
-      <div class="time-unit">
-        <div class="time-box">
-          <div class="time-value" id="hours">00</div>
-          <div class="time-label">hours</div>
-        </div>
-      </div>
-      <div class="time-unit">
-        <div class="time-box">
-          <div class="time-value" id="minutes">00</div>
-          <div class="time-label">mins</div>
-        </div>
-      </div>
-      <div class="time-unit">
-        <div class="time-box">
-          <div class="time-value" id="seconds">00</div>
-          <div class="time-label">secs</div>
-        </div>
-      </div>
-    </div>
+    <p class="beta-info">
+      we are in <strong>beta testing</strong>. Only selected users have access.
+    </p>
+
+    <h4>Interested in joining our beta test?</h4>
+    <p>
+      We are looking for experienced guides and passionate hosts for
+      extraordinary events in Kathmandu.
+    </p>
+    <form id="beta-form">
+      <label for="email">Your Email:</label>
+      <input type="email" id="email" name="email" required />
+
+      <label for="bio">Short Bio:</label>
+      <textarea id="bio" name="bio" rows="4" required></textarea>
+
+      <button type="submit">Apply for Beta Access</button>
+    </form>
 
     <h4>Stay connected with us on:</h4>
     <div class="socials">
-<!--       <a href="get.html" id="facebook"
-        ><img src="facebook.jpeg" alt="durbean-facebook-img"
-      /></a> -->
-      <a
-        href="https://www.instagram.com/durbean.app/"
-        id="instagram"
-        target="_blank"
-        ><img src="instagram.avif" alt="durbean-instagram-img"
-      /></a>
-      <a href="https://www.linkedin.com/company/97429844/" id="linkedin"
-        ><img src="linkedin.jpeg" alt="durbean-linkedIn-img"
-      /></a>
+      <a href="https://www.instagram.com/durbean.app/" target="_blank">
+        <img src="instagram.avif" alt="Durbean Instagram" />
+      </a>
+      <a href="https://www.linkedin.com/company/97429844/" target="_blank">
+        <img src="linkedin.jpeg" alt="Durbean LinkedIn" />
+      </a>
     </div>
+
+    <p><a href="privacy-policy.html">Privacy Policy</a></p>
+
     <script src="script.js"></script>
   </body>
 </html>
