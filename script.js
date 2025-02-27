@@ -64,7 +64,7 @@ document
       )
       .then(({ status, body }) => {
         if (status === 201 && body.message) {
-          alert("Check your email, please.");
+          alert("All done! We have sent you an email plz check ");
         } else if (
           body.email &&
           Array.isArray(body.email) &&
